@@ -1,8 +1,12 @@
 # Git workflow
+## SVN?
+- an open-source, centralized version control system
+- a single central repository as the communication hub for developers
+- collaboration takeing place by passing changesets between the developers’ working copies and the central repository
 ## Git?
 - a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel 
 - an example of a DVCS (hence Distributed Version Control System)
-- every developer's working copy of the code is also a repository containing the full history of all changes
+- every developer having their own copy of the repository, complete with its own local history and branch structure
 
 ## Workflow?
 >A workflow consists of an orchestrated and repeatable pattern of business activity enabled by the systematic organization of resources into processes that transform materials, provide services, or process information.
@@ -10,10 +14,19 @@
 ## Git Workflow?
 >A Git Workflow is a recipe or recommendation for how to use Git to accomplish work in a consistent and productive manner. 
 
+### Why Git?
+- branching capabilities
+- distributed development
+- pull request
+- faster release cycle
+
+## Common Git Workflows for Software Teams
 
 ### Centralized Workflow
 - transitioning from SVN
 - a central repository as the single point-of-entry for all changes to the project
+- the default development branch being called master and all changes being committed into this branch
+- no requiring any other branches besides master
 
 ### Feature branching
 - a logical extension of Centralized Workflow
