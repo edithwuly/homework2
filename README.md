@@ -43,6 +43,8 @@
 - no  need to train new hires on the workflow
 - easy to leverage 3rd-party libraries and encourage others to fork your own open source code
 
+![](https://wac-cdn.atlassian.com/dam/jcr:4263b82f-e177-47d4-a587-dab97a20334d/06.svg?cdnVersion=ht)
+
 #### faster release cycle
 - developers being encouraged to share smaller changes more frequently
 - changes can get pushed down the deployment pipeline faster 
