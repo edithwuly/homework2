@@ -3,6 +3,7 @@
 - an open-source, centralized version control system
 - a single central repository as the communication hub for developers
 - collaboration takeing place by passing changesets between the developers’ working copies and the central repository
+
 ## Git?
 - a mature, actively maintained open source project originally developed in 2005 by Linus Torvalds, the famous creator of the Linux operating system kernel 
 - an example of a DVCS (hence Distributed Version Control System)
@@ -21,16 +22,15 @@
 - the master branch always contains production-quality code
 - organizational benefits
 
+![](https://wac-cdn.atlassian.com/dam/jcr:fcad863b-e0da-4a55-92ee-7caf4988e34e/02.svg?cdnVersion=ht)
 #### distributed development
 - SVN: each developer gets a working copy that points back to a single central repository
-
-![](https://git-scm.com/images/about/workflow-a@2x.png)
 - Git: each developer gets their own local repository, complete with a full history of commits
 - less dependence on a network connection
 - easier to scale the team
 - more reliable environment
 
-![](https://git-scm.com/images/about/workflow-c@2x.png)
+![](https://wac-cdn.atlassian.com/dam/jcr:9d51f0ee-5946-4be2-886c-ff040ef8c1a1/03.svg?cdnVersion=ht)
 
 #### pull request
 - a way to ask another developer to merge one of your branches into their repository
@@ -43,11 +43,13 @@
 - no  need to train new hires on the workflow
 - easy to leverage 3rd-party libraries and encourage others to fork your own open source code
 
-![](https://wac-cdn.atlassian.com/dam/jcr:4263b82f-e177-47d4-a587-dab97a20334d/06.svg?cdnVersion=ht)
+![](https://wac-cdn.atlassian.com/dam/jcr:60fb4158-0c3e-4f1b-a932-fb4e8a660ee4/05.svg?cdnVersion=ht)
 
 #### faster release cycle
 - developers being encouraged to share smaller changes more frequently
 - changes can get pushed down the deployment pipeline faster 
+
+![](https://wac-cdn.atlassian.com/dam/jcr:4263b82f-e177-47d4-a587-dab97a20334d/06.svg?cdnVersion=ht)
 
 ## Common Git Workflows for Software Teams
 
