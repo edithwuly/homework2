@@ -15,7 +15,7 @@
 >A Git Workflow is a recipe or recommendation for how to use Git to accomplish work in a consistent and productive manner. 
 
 ### Why Git?
-- branching capabilities
+- branching capabilities, cheap and easy to merge
 - distributed development
 - pull request
 - faster release cycle
@@ -28,22 +28,53 @@
 - the default development branch being called master and all changes being committed into this branch
 - no requiring any other branches besides master
 
-### Feature branching
+![](https://segmentfault.com/image?src=http://static.ixirong.com/pic/gitflow/git-workflow-svn-push-local.png&objectId=1190000002918123&token=cb6d4428bd989a9db24ea68b29588a67)
+
+#### Advantages:
+1. no need to change existing workflow 
+2. not affected by upstream developments
+3. access to Git’s robust branching and merging model
+
+#### Suit:
+teams migrating from SVN to Git and smaller size teams
+
+### Feature Branch Workflow
 - a logical extension of Centralized Workflow
 - all feature development taking place in a dedicated branch 
-- easy for multiple developers to work on a particular feature without disturbing the main codebase
-- master branch always containing production-quality code
 
 ![](https://sfault-image.b0.upaiyun.com/135/687/1356871362-56fe09a564c99_articlex)
+
+#### Advantage:
+1. isolated experiments
+2. master branch always containing production-quality code
+3. possible to leverage pull requests, easy to comment on each other’s work
+4. composable
+
 
 ### Gitflow Workflow
 - a strict branching model designed around the project release
 - not new concepts or commands beyond what’s required for the Feature Branch Workflow
 - assigning specific roles to different branches and defining how and when they should interact
+-  using individual branches for preparing, maintaining, and recording releases
 
 ![](https://sfault-image.b0.upaiyun.com/221/358/2213586864-56fe8ad48caf1_articlex)
 
+#### Advantages:
+1. providing a robust framework for managing larger projects  
+2. all the benefits of the Feature Branch Workflow
+
+#### Suit:
+projects that have a scheduled release cycle
+
 ### Forking Workflow
-- every developer having a server-side repository means each contributor having two Git repositories: a private local one and a public server-side one 
+- every developer having a server-side repository
+- complete feature branches being purposed for merge into the original project maintainer's repository
 
 ![](https://sfault-image.b0.upaiyun.com/348/941/3489415854-56feaa016d70d_articlex)
+
+#### Advantages:
+1. contributions can be integrated without the need for everybody to push to a single central repository
+2. a flexible way for large, organic teams (including untrusted third-parties) to collaborate securely
+
+#### Suit:
+public open source projects
