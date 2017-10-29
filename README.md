@@ -15,10 +15,31 @@
 >A Git Workflow is a recipe or recommendation for how to use Git to accomplish work in a consistent and productive manner. 
 
 ### Why Git?
-- branching capabilities, cheap and easy to merge
-- distributed development
-- pull request
-- faster release cycle
+#### feature branches
+- cheap and easy to merge
+- an isolated environment
+- the master branch always contains production-quality code
+- organizational benefits
+
+#### distributed development
+- SVN: each developer gets a working copy that points back to a single central repository
+- Git: each developer gets their own local repository, complete with a full history of commits
+- less dependence on a network connection
+- easier to scale the team
+- more reliable environment
+
+#### pull request
+- a way to ask another developer to merge one of your branches into their repository
+- easier for project leads to keep track of changes
+- lets developers initiate discussions around their work before integrating it with the rest of the codebase
+
+#### stable community
+- no  need to train new hires on the workflow
+- easy to leverage 3rd-party libraries and encourage others to fork your own open source code
+
+#### faster release cycle
+- developers being encouraged to share smaller changes more frequently
+- changes can get pushed down the deployment pipeline faster 
 
 ## Common Git Workflows for Software Teams
 
