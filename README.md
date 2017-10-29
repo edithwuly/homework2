@@ -23,15 +23,21 @@
 
 #### distributed development
 - SVN: each developer gets a working copy that points back to a single central repository
+
+![](https://git-scm.com/images/about/workflow-a@2x.png)
 - Git: each developer gets their own local repository, complete with a full history of commits
 - less dependence on a network connection
 - easier to scale the team
 - more reliable environment
 
+![](https://git-scm.com/images/about/workflow-c@2x.png)
+
 #### pull request
 - a way to ask another developer to merge one of your branches into their repository
 - easier for project leads to keep track of changes
 - lets developers initiate discussions around their work before integrating it with the rest of the codebase
+
+![](https://segmentfault.com/image?src=http://static.ixirong.com/pic/gitflow/pull-request-overview.png&objectId=1190000002918123&token=a11eee54c054994945f6ca5aa279f566)
 
 #### stable community
 - no  need to train new hires on the workflow
