@@ -37,7 +37,7 @@
 - easier for project leads to keep track of changes
 - lets developers initiate discussions around their work before integrating it with the rest of the codebase
 
-![](https://segmentfault.com/image?src=http://static.ixirong.com/pic/gitflow/pull-request-overview.png&objectId=1190000002918123&token=a11eee54c054994945f6ca5aa279f566)
+![](https://www.atlassian.com/dam/jcr:92c7f92c-cafb-4254-ab40-0b91821d3fd0/04.svg)
 
 #### stable community
 - no  need to train new hires on the workflow
